@@ -21,8 +21,9 @@ pipeline {
 		      subject: "Job Completed",
 		      body: "Jenkins Pipeline Job for Maven Build got completed !!!",
 		      to: "sudeepthi_chakram@hcl.com"
-		    )
+		)
 	}
+}
 
     post { 
         always { 
