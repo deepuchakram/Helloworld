@@ -15,7 +15,7 @@ pipeline {
             }
         }
     }
-    stage ('Notification'){
+    stage('Notification'){
 		//slackSend color: 'good', message: 'Deployment Sucessful'
 		emailext (
 		      subject: "Job Completed",
